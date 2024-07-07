@@ -1,0 +1,18 @@
+apiVersion: v1
+entries:
+  argo-cd:
+  - apiVersion: v2
+    created: "2024-07-07T20:57:25.000782299Z"
+    dependencies:
+    - name: argo-cd
+      repository: https://argoproj.github.io/argo-helm
+      version: 5.46.8
+    description: Installs Argo CD with customizations.
+    digest: 0f48e7fbaaf6f4c4c8f282e44cdd64b54ec6766feccaf4cfad32e95f4bfdda60
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    name: argo-cd
+    type: application
+    urls:
+    - https://github.com/mapspiral/example-argocd-charts/releases/download/argo-cd-0.0.1/argo-cd-0.0.1.tgz
+    version: 0.0.1
+generated: "2024-07-07T20:57:25.000792818Z"
