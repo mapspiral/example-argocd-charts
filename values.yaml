@@ -1,0 +1,13 @@
+argocd:
+  projects:
+    - name: app1-root
+  apps:
+    - name: app1
+      project: app1-root
+      source:
+        repoURL: https://github.com/mapspiral/example-argocd-app1.git
+        path: service1
+        targetRevision: main
+      destination:
+        server: https://kubernetes.default.svc
+        namespace: app1
